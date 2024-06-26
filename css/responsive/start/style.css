@@ -1,0 +1,39 @@
+body{
+    background-color:#fafbff;
+
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div{
+    width: 75vw;
+}
+
+nav{
+    background-color: #234567;
+    color: white;
+}
+
+a{
+    transition: 300ms;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff784d;
+}
+
+aside{
+    width: 25vw;
+    background-color: #edefff;
+}
+
+@media (max-width: 990px){
+    article{
+    display: flex;
+    flex-direction: column;
+    }
+
+}

@@ -1,0 +1,127 @@
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  /*   grid-template-rows: repeat(6, 1fr); */
+    grid-template-areas: 
+    "result result result result"
+    "plus minus mult divi"
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal"
+    "zeroo dott ac equal";
+    border-radius: 15px;
+    border:  0px solid;
+    border-color: transparent;
+    overflow: hidden;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    font-weight: bold;
+    gap: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div{ 
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.result{
+    grid-area: result;
+    background-color: #424C52;
+    text-align: end;
+    display: block;
+    padding-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.plus{
+    grid-area: plus;
+    background-color: #D2DCE4;
+}
+
+.minus{
+    grid-area: minus;
+    background-color: #D2DCE4;
+}
+
+.mult{
+    grid-area: mult;
+    background-color: #D2DCE4;
+}
+
+.divi{
+    grid-area: divi;
+    background-color: #D2DCE4;
+}
+
+.seven{
+    grid-area: seven;
+    background-color: #EFF2F5;
+}
+
+.eight{
+    grid-area: eight;
+    background-color: #EFF2F5;
+}
+
+.nine{
+    grid-area: nine;
+    background-color: #EFF2F5;
+}
+
+.four{
+    grid-area: four;
+    background-color: #EFF2F5;
+}
+
+.five{
+    grid-area: five;
+    background-color: #EFF2F5;
+}
+
+.six{
+    grid-area: six;
+    background-color: #EFF2F5;
+}
+
+.one{
+    grid-area: one;
+    background-color: #EFF2F5;
+}
+
+.two{
+    grid-area: two;
+    background-color: #EFF2F5;
+}
+
+.three{
+    grid-area: three;
+    background-color: #EFF2F5;
+}
+
+.zeroo{
+    grid-area: zeroo;
+    background-color: #EFF2F5;
+}
+
+.dott{
+    grid-area: dott;
+    background-color: #EFF2F5;
+}
+
+.ac{
+    grid-area: ac;
+    background-color: #EFF2F5;
+}
+
+.equal{
+    grid-area: equal;
+    background-color: #F77077;
+    align-self:stretch;
+
+}
+
