@@ -1,0 +1,25 @@
+let person1 = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+};
+
+let person2 = person1;
+
+// Modify the property `firstName` of the `person2` in "Simon".
+person2.firstName = "Simon";
+
+
+console.log(person1);
+console.log(person2);
+
+//Solución mediante destructuring
+person2 = { ... person1 };
+
+person1.firstName = "John";
+
+console.log(person1);
+console.log(person2);
+
+//Comentario: person1 y 2 son referencias a un mismo objeto, como si ese objeto tuviera mas de un nombre
+// por eso hay que hacer destructuring, porque en vez de indicarle la referencia, le indica los mismos valores para que cree una copia separada
